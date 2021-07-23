@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Gist
 
 Introductory paragraph (replace this with your text)
 
@@ -16,6 +16,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Leggo My Eggo](#leggo-my-eggo)
 
 ## Regex Components
 
@@ -28,6 +29,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Bracket Expressions
 
 ### Character Classes
+
+### Leggo My Eggo
 
 ### The OR Operator
 
