@@ -61,5 +61,8 @@ Once you have a better understanding of what these different parts of a regular 
 
 We will specifically cover the following:
 
-* Matching a URL: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
+```md
+Matching a URL: 
 
+`/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
+```
