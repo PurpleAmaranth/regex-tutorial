@@ -1,4 +1,4 @@
-# Regex Gist
+# Regex-Tutorial Gist
 
 As a newbie starting to code, have you ever read someone's code and thought:
 
@@ -66,12 +66,12 @@ so we tag it with a carrot `/^`
 
 Then the `$` tags where we want the end of the line to be. So in this case we want the end of the line to be more flexible, since the length of a URL is always variable based on some sort of file structure or pathing. We'll cover more on this soon! Hence we have `/?$/`
 
-This code means we want something in slashes at the end, but it doesn't matter what it is exacly contained within the slashes.
+This code means we want something in slashes at the end, but it doesn't matter what it is exactly contained within the slashes.
 
 ### Quantifiers
 
 **Definition:**
-A quantifier specifies the numeric limit of characters we want to have. They usually apear in brackets like: `{1, 9}` meaning we want the string to have 1 to 9 characters within it.
+A quantifier specifies the numeric limit of characters we want to have. They usually appear in brackets like: `{1, 9}` meaning we want the string to have 1 to 9 characters within it.
 
 ```
 Examples:
@@ -81,7 +81,7 @@ Examples:
 `{}` -------- Match the set limit.
 `{n}` ------- Match **exactly**  times.
 `{n,}` ------ Match **at least** n times.
-`{n, x}` ---- Match a pttern from min (n) to max (x).
+`{n, x}` ---- Match a pattern from min (n) to max (x).
 ```
 
 **The URL Example:**
@@ -111,7 +111,7 @@ So none of these are non-capturing expressions.
 
 **Definition:**
 
-Anything contained in brackets is defining a range of alpabetic or numeric symbols.
+Anything contained in brackets is defining a range of alphabetic or numeric symbols.
 
 ```
 For example:
@@ -147,7 +147,7 @@ A character class identifier defines a specific set of characters.
 Some examples include:
 `.` ---- Matches any character except '\n'.
 `\d` --- Matches any integer between 0 and 9.
-`\w` --- Matches and alpha numeric characer including a hyphen.
+`\w` --- Matches and alpha numeric character including a hyphen.
 `\s` --- Matches any whitespace character like spaces, tabs, and breaks.
 ```
 
@@ -175,13 +175,13 @@ The OR Operator is denoted by '|'. We can use it to change a range of digits lik
 
 Although out URL example doesn't rely on flags, it is so important I wanted to include a couple of examples for you.
 
-Flags are usually included at the end of the regex following second slash. They are used to give additional functionality to the regex serach or spcfiy it limits for what matches.
+Flags are usually included at the end of the regex following second slash. They are used to give additional functionality to the regex search or specify it limits for what matches.
 
 ```
 Examples:
 `d` --- make indices for substring matches.
 `g` --- make a global search.
-`i` --- make a case-senstive search.
+`i` --- make a case-sensitive search.
 `m` --- make a multi-line search.
 `s` --- allow '.' to match newline characters.
 `u` --- treat patterns as unicode sequences.
@@ -203,9 +203,9 @@ The basic denotation is a backslash '\'. This denotes a character that should be
 We can see our literals here: '\/\/' This means we expect a literal '/' here.
 
 ```
-However for special chracters we have:
+However for special characters we have:
 `\d`,  which means specifically a decimal number or one digit from 0 to 9;
-`\.-`, which means specifically that a hypen needs to be escaped by the preceeding expression; and
+`\.-`, which means specifically that a hyphen needs to be escaped by the preceeding expression; and
 `\w`, which means to expect a **word character** which can contain a ASCII letter, digit, or underscore.
 ```
 
